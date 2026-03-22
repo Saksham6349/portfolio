@@ -351,7 +351,6 @@ footer span{color:var(--cyan)}
         <div class="stat"><div class="stat-num" id="cnt-events">10<span>+</span></div><div class="stat-label">Events Led</div></div>
         <div class="stat"><div class="stat-num" id="cnt-proj">5<span>+</span></div><div class="stat-label">AI Projects</div></div>
       </div>
-    </div>
       </div><!-- end hero-text -->
     </div><!-- end hero-inner -->
     <div class="hero-scroll">
@@ -408,6 +407,19 @@ footer span{color:var(--cyan)}
     <div class="projects-grid">
       <div class="project-card">
         <div class="project-num">01</div>
+        <div class="project-tag">Backend &middot; FFmpeg &middot; Full Stack</div>
+        <div class="project-name">MedPro</div>
+        <div class="project-sub">FFmpeg Media Processor</div>
+        <ul class="project-bullets">
+          <li>Built an end-to-end media processing platform with <strong>FastAPI</strong> + Python <strong>subprocess</strong> invoking FFmpeg for thumbnail extraction, H.264 video compression, and MP3 audio export.</li>
+          <li>Implemented <strong>async job queue</strong> with real-time polling UI, injection-safe list-arg execution, 500&nbsp;MB size guards &mdash; deployed on <strong>Railway</strong> via Docker.</li>
+        </ul>
+        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/medpro','_blank')">GitHub &rarr;</button>
+        &nbsp;
+        <button class="project-link" onclick="window.open('https://medpro-production.up.railway.app','_blank')">Live Demo &rarr;</button>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
         <div class="project-tag">SaaS &middot; AI &middot; Full Stack</div>
         <div class="project-name">Resume Roaster</div>
         <div class="project-sub">AI-Powered Resume Analyzer</div>
@@ -415,22 +427,12 @@ footer span{color:var(--cyan)}
           <li>Built a <strong>3-step LLM pipeline</strong> (extract &rarr; ATS score &rarr; JD match) using <strong>Llama 3.3 70B</strong> via Groq API with job description keyword gap analysis.</li>
           <li>Implemented <strong>Google OAuth 2.0</strong> + JWT auth, MongoDB Atlas, PDF parsing, and integration tests covering auth flows and <strong>cross-user data isolation</strong>.</li>
         </ul>
-        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/resume-roaster-final','_blank')">View on GitHub &rarr;</button>
+        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/resume-roaster-final','_blank')">GitHub &rarr;</button>
+        &nbsp;
+        <button class="project-link" onclick="window.open('https://resume-roaster-final.onrender.com','_blank')">Live Demo &rarr;</button>
       </div>
       <div class="project-card">
-  <div class="project-num">05</div>
-  <div class="project-tag">Backend &middot; FFmpeg &middot; Full Stack</div>
-  <div class="project-name">MEDPRO</div>
-  <div class="project-sub">FFmpeg Media Processor</div>
-  <ul class="project-bullets">
-    <li>Built an end-to-end media processing platform with <strong>FastAPI</strong> + Python <strong>subprocess</strong> invoking FFmpeg for thumbnail extraction, H.264 video compression, and MP3 audio export.</li>
-    <li>Implemented <strong>async job queue</strong> with real-time polling UI, injection-safe list-arg execution, 500&nbsp;MB size guards, and deployed on <strong>Railway</strong> via Docker.</li>
-  </ul>
-  <button class="project-link"
-    onclick="window.open('https://github.com/Saksham6349/medpro','_blank')">View on GitHub &rarr;</button>
-</div>
-      <div class="project-card">
-        <div class="project-num">02</div>
+        <div class="project-num">03</div>
         <div class="project-tag">AgriTech &middot; AI &middot; SMS</div>
         <div class="project-name">AgriAssist SMS</div>
         <div class="project-sub">AI Agricultural Advisory Platform</div>
@@ -438,10 +440,12 @@ footer span{color:var(--cyan)}
           <li>Built a <strong>multilingual AI platform</strong> delivering real-time crop recommendations, weather alerts, and market insights via SMS; supports <strong>5+ regional languages</strong>.</li>
           <li>Integrated LLM API for NL analysis, multilingual translation, and text-to-speech on a <strong>2G-compatible</strong> SMS-first architecture.</li>
         </ul>
-        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/AgriAssistSMS','_blank')">View on GitHub &rarr;</button>
+        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/AgriAssistSMS','_blank')">GitHub &rarr;</button>
+        &nbsp;
+        <button class="project-link" onclick="window.open('https://agri-assist-sms-ibxy.vercel.app/','_blank')">Live Demo &rarr;</button>
       </div>
       <div class="project-card">
-        <div class="project-num">03</div>
+        <div class="project-num">04</div>
         <div class="project-tag">EdTech &middot; AI &middot; Full Stack</div>
         <div class="project-name">AI StudyBuddy</div>
         <div class="project-sub">Intelligent Learning Platform</div>
@@ -449,10 +453,12 @@ footer span{color:var(--cyan)}
           <li>Full-stack AI platform featuring smart note summarisation, personalised quiz generation, and study-schedule management.</li>
           <li>Integrated LLM API for context-aware study tools; deployed with <strong>CI/CD pipelines</strong> on React.js + Node.js/Express stack.</li>
         </ul>
-        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/AI-Study-Buddy','_blank')">View on GitHub &rarr;</button>
+        <button class="project-link" onclick="window.open('https://github.com/Saksham6349/AI-Study-Buddy','_blank')">GitHub &rarr;</button>
+        &nbsp;
+        <button class="project-link" onclick="window.open('https://ai-study-buddy-9phf.vercel.app/','_blank')">Live Demo &rarr;</button>
       </div>
       <div class="project-card">
-        <div class="project-num">04</div>
+        <div class="project-num">05</div>
         <div class="project-tag">ML &middot; Sports Analytics &middot; Python</div>
         <div class="project-name">NBA Playoff Predictor</div>
         <div class="project-sub">Machine Learning Sports Forecasting</div>
@@ -460,7 +466,9 @@ footer span{color:var(--cyan)}
           <li>Built an <strong>ML-powered prediction engine</strong> forecasting NBA playoff outcomes using historical team performance stats and player metrics.</li>
           <li>Trained and evaluated classification models with <strong>TensorFlow &amp; Pandas</strong>; visualised win-probability curves and bracket predictions.</li>
         </ul>
-        <button class="project-link" onclick="window.open('https://github.com/Saksham6349','_blank')">View on GitHub &rarr;</button>
+        <button class="project-link" onclick="window.open('https://github.com/Saksham6349','_blank')">GitHub &rarr;</button>
+        &nbsp;
+        <button class="project-link" onclick="window.open('https://basketball-phi-blush.vercel.app','_blank')">Live Demo &rarr;</button>
       </div>
     </div>
   </section>
@@ -482,11 +490,11 @@ footer span{color:var(--cyan)}
       </div>
       <div class="skill-group">
         <div class="skill-group-title">AI / ML</div>
-        <div class="skill-tags"><span class="skill-tag">TensorFlow</span><span class="skill-tag">Hugging Face</span><span class="skill-tag">NumPy</span><span class="skill-tag">Pandas</span><span class="skill-tag">FastAPI</span><span class="skill-tag">Flask</span></div>
+        <div class="skill-tags"><span class="skill-tag">TensorFlow</span><span class="skill-tag">Hugging Face</span><span class="skill-tag">NumPy</span><span class="skill-tag">Pandas</span><span class="skill-tag">FastAPI</span><span class="skill-tag">Flask</span><span class="skill-tag">httpx</span></div>
       </div>
       <div class="skill-group">
         <div class="skill-group-title">Tools &amp; Platforms</div>
-        <div class="skill-tags"><span class="skill-tag">Git / GitHub</span><span class="skill-tag">Vite</span><span class="skill-tag">Figma</span><span class="skill-tag">Notion</span><span class="skill-tag">Agile / Scrum</span></div>
+        <div class="skill-tags"><span class="skill-tag">Git / GitHub</span><span class="skill-tag">Docker</span><span class="skill-tag">FFmpeg</span><span class="skill-tag">Vite</span><span class="skill-tag">Figma</span><span class="skill-tag">Railway</span><span class="skill-tag">Notion</span><span class="skill-tag">Agile / Scrum</span></div>
       </div>
     </div>
   </section>
@@ -619,8 +627,14 @@ document.querySelectorAll('.project-card').forEach(function(card){
 });
 
 // ── NAV ACTIVE ──
-var allSections = document.querySelectorAll('section, #hero');
+var allSections2 = document.querySelectorAll('section, #hero');
 window.addEventListener('scroll', function(){
   var cur='';
-  allSections.forEach(function(s){ if(window.scrollY>=s.offsetTop-200) cur=s.id; });
-  document.querySelectorAll('.nav-links
+  allSections2.forEach(function(s){ if(window.scrollY>=s.offsetTop-200) cur=s.id; });
+  document.querySelectorAll('.nav-links button').forEach(function(b){
+    b.style.color='';
+  });
+});
+</script>
+</body>
+</html>
