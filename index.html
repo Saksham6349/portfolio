@@ -346,7 +346,7 @@ footer span{color:var(--cyan)}
         <button class="btn-outline" id="resume-btn">&#8595; Resume</button>
       </div>
       <div class="hero-stats">
-        <div class="stat"><div class="stat-num">8.7<span>/10</span></div><div class="stat-label">CGPA</div></div>
+        <div class="stat"><div class="stat-num">8.65<span>/10</span></div><div class="stat-label">CGPA</div></div>
         <div class="stat"><div class="stat-num" id="cnt-team">40<span>+</span></div><div class="stat-label">Team Lead</div></div>
         <div class="stat"><div class="stat-num" id="cnt-events">10<span>+</span></div><div class="stat-label">Events Led</div></div>
         <div class="stat"><div class="stat-num" id="cnt-proj">5<span>+</span></div><div class="stat-label">AI Projects</div></div>
@@ -372,7 +372,7 @@ footer span{color:var(--cyan)}
         <div class="edu-detail">Vellore, Tamil Nadu, India &nbsp;&middot;&nbsp; 2023 &ndash; 2027</div>
       </div>
       <div class="edu-cgpa">
-        <div class="edu-cgpa-num">8.7</div>
+        <div class="edu-cgpa-num">8.65</div>
         <div class="edu-cgpa-label">CGPA / 10.0</div>
       </div>
     </div>
@@ -385,6 +385,17 @@ footer span{color:var(--cyan)}
       <h2 class="section-title">Work <span>Experience</span></h2>
     </div>
     <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jun 2026 &ndash; Present</div>
+        <div class="timeline-company">Valsco Technology Pvt. Ltd. (Jurident)</div>
+        <div class="timeline-role">Backend Developer Intern</div>
+        <ul class="timeline-bullets">
+          <li>Analyzed and debugged a silent production issue in a <strong>Node.js/Firebase</strong> cron service caused by a Firestore field-name mismatch; restored data integrity across <strong>100+ tracked cases</strong> and unblocked FCM push-notification delivery.</li>
+          <li>Developed and deployed a <strong>Node.js/Express REST API</strong> scraper suite with Tesseract OCR and 6+ automated cron jobs, fully automating case-status tracking across 100+ active cases across <strong>4 legal portals</strong>.</li>
+          <li>Applied <strong>RSA-OAEP + AES-256-GCM</strong> encryption and containerized all microservices with Docker; authored comprehensive technical documentation for each service.</li>
+        </ul>
+      </div>
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-date">Sep 2025 &ndash; Nov 2025</div>
@@ -459,6 +470,26 @@ footer span{color:var(--cyan)}
       </div>
       <div class="project-card">
         <div class="project-num">05</div>
+        <div class="project-tag">IoT &middot; ML &middot; Patent</div>
+        <div class="project-name">EchoSense</div>
+        <div class="project-sub">Acoustic Threat Detection &amp; Alert System | Patent Filed | TRL 5</div>
+        <ul class="project-bullets">
+          <li>Deployed an on-device <strong>CNN (TensorFlow/Keras)</strong> classifier on ESP32 processing raw audio &rarr; MFCC &rarr; threat category with confidence-score thresholding to suppress false positives.</li>
+          <li>Built a low-latency <strong>FastAPI + WebSocket</strong> backend serving real-time alerts to Flutter mobile clients; patent registered with VIT IPR &amp; Technology Transfer Cell at TRL 5.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <div class="project-num">06</div>
+        <div class="project-tag">Backend &middot; Scraping &middot; Node.js</div>
+        <div class="project-name">Indian Legal Portal Scraper Suite</div>
+        <div class="project-sub">District Court, NCLT, NGT &amp; UP RERA</div>
+        <ul class="project-bullets">
+          <li>Architected <strong>4 stateless Node.js REST API</strong> services with unified service/controller/routes pattern; executed session management, automated captcha solving, and Cheerio/Axios-based HTML parsing.</li>
+          <li>Reverse-engineered <strong>ASP.NET WebForms ViewState</strong> and Base64-encoded payloads; authored technical docs that accelerated new-developer onboarding.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <div class="project-num">07</div>
         <div class="project-tag">ML &middot; Sports Analytics &middot; Python</div>
         <div class="project-name">NBA Playoff Predictor</div>
         <div class="project-sub">Machine Learning Sports Forecasting</div>
@@ -486,7 +517,7 @@ footer span{color:var(--cyan)}
       </div>
       <div class="skill-group">
         <div class="skill-group-title">Web Dev</div>
-        <div class="skill-tags"><span class="skill-tag">React.js</span><span class="skill-tag">Node.js</span><span class="skill-tag">Express.js</span><span class="skill-tag">MongoDB</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">Tailwind CSS</span></div>
+        <div class="skill-tags"><span class="skill-tag">React.js</span><span class="skill-tag">Next.js</span><span class="skill-tag">Node.js</span><span class="skill-tag">Express.js</span><span class="skill-tag">MongoDB</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">Tailwind CSS</span></div>
       </div>
       <div class="skill-group">
         <div class="skill-group-title">AI / ML</div>
